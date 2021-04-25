@@ -167,7 +167,7 @@ public class MailScheduleDaoImpl implements MailScheduleDao {
         updateMailSchedule(request);
         JobDetail jobDetail = updateJobDetail(request);
         updateTriggerDetails(request, jobDetail, zonedDateTime);
-        return null;
+        return request.getScheduleId().toString();
     }
 
     public void updateMailSchedule(Request request) {
