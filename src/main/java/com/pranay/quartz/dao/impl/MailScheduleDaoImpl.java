@@ -192,7 +192,7 @@ public class MailScheduleDaoImpl implements MailScheduleDao {
             if (request.getScheduleId() != null) {
                 jobDetail = scheduler.getJobDetail(new JobKey(request.getScheduleId().toString(), JOB_DETAIL_GROUP_ID));
                 jobDetail.getJobDataMap().put(TO_MAIL, request.getToEmail());
-                jobDetail.getJobDataMap().put(SUBJECT, request.getToEmail());
+                jobDetail.getJobDataMap().put(SUBJECT, request.getSubject());
                 jobDetail.getJobDataMap().put(MESSAGE, request.getMessage());
                 scheduler.addJob(jobDetail, true);
             }
