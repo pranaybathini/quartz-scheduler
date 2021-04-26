@@ -14,3 +14,6 @@ This application involves CRUD operations involving the scheduling operations.
 
 [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
+# Postman Collection
+
+Import from here - [Post man Collection](https://github.com/pranaybathini/quartz-scheduler/blob/main/Quartz-Scheduler.postman_collection.json)
