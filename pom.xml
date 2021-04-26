@@ -20,6 +20,14 @@
         <java.version>1.8</java.version>
         <io.springfox.version>3.0.0</io.springfox.version>
     </properties>
+         
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/pranaybathini/quartz-scheduler</url>
+        </repository>
+  </distributionManagement>
 
     <dependencies>
         <dependency>
