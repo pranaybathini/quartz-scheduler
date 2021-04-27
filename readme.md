@@ -17,3 +17,15 @@ This application involves CRUD operations involving the scheduling operations.
 # Postman Collection
 
 Import from here - [Post man Collection](https://github.com/pranaybathini/quartz-scheduler/blob/main/Quartz-Scheduler.postman_collection.json)
+
+# Run application with MySQL as database
+
+```
+ mvn spring-boot:run -Dspring-boot.run.arguments="--spring.profiles.active=local --spring.mail.password=<YOUR_SMTP_PASSWORD>"                         
+```
+
+# Run application with PostgreSQL as database
+
+```
+ mvn spring-boot:run -Dspring-boot.run.arguments="--spring.profiles.active=local-postgres --spring.mail.password=<YOUR_SMTP_PASSWORD>"                         
+```
