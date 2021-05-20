@@ -49,4 +49,4 @@ Link - [Dockerizing a spring boot application](https://www.pranaybathini.com/doc
 Most of the secrets are written in plain text and available in code. This is prone to attacks. Configure a secret manager to store secrets and our application 
 should access them from the secret manager securely.
 
-Link - [Fetching secrets from Hashicorp vault in spring boot.](https://www.pranaybathini.com/hashicorp-vault-config-in-spring-bootFetching secrets from Hashicorp vault in spring boot.)
+Link - [Fetching secrets from Hashicorp vault in spring boot.](https://www.pranaybathini.com/hashicorp-vault-config-in-spring-boot)
